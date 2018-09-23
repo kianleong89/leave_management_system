@@ -1,0 +1,74 @@
+.Navigation_Bar {
+    background-color: #004ea2;
+    height: 35px;
+    color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+    
+  .Navigation_Bar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #004ea2;
+  }
+   
+  li {
+      float: left;
+  }
+  
+  .dropbtn {
+      background-color: #004ea2;
+      font-size: 18px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .dropdown {
+      font-size: 18px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+  li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      border: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+      background-color: #f1f1f1;
+      color: #004ea2;
+  }
+  
+  .leave-content, .admin-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+  
+  .leave-content a, .admin-content a {
+      color: #004ea2;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+  }
+  
+  .leave-content a:hover, .admin-content a:hover {
+      background-color: #f1f1f1;
+  }
+  
+  .leave:hover .leave-content {
+      display: block;
+  }
+  
+  .admin:hover .admin-content {
+      display: block;
+  }
